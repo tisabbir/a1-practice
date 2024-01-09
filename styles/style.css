@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* Common Styles  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.banner-upper-text,
+.banner-title {
+  font-family: "Merriweather";
+}
+
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 95px;
+  max-width: 632px;
+}
+.header-title {
+  margin: 0 auto;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgba(255, 0, 0, 0.506);
+}
+.para {
+  max-width: 650px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.container {
+  max-width: 80%;
+  max-width: 1090px;
+  border-radius: 16px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.st-upper-text {
+  color: #f00;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.section-title {
+  color: #070211;
+  font-family: "Merriweather";
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+/* header section styles */
+.header-box {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner-Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  max-height: 600px;
+  margin-top: 50px;
+}
+.banner-upper-text {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/* offer section styles */
+.offer-container {
+  margin-top: 50px;
+}
+.off {
+  color: #f00;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.offer-content {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* party section */
+.party-box {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.party-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.party-box img {
+  max-width: 300px;
+  max-height: 400px;
+  margin-left: 100px;
+}
+
+.party-title {
+  font-size: 50px;
+  text-align: left;
+  display: inline-block;
+  max-width: 500px;
+}
+.party-description {
+  display: inline-block;
+}
+
+.party-btn,
+.unsub-btn {
+  background-color: transparent;
+  display: block;
+}
+
+.event-container {
+  max-height: 450px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px;
+  margin-top: 120px;
+}
+.event-info-text {
+  padding-bottom: 50px;
+}
+.event-info-text p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.event-info-text p span {
+  color: #f00;
+}
+.btn-event {
+  display: flex;
+  justify-content: center;
+}
+
+/* coming soon section */
+.coming-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.coming-container p {
+  color: rgba(7, 2, 17, 0.6);
+  max-width: 350px;
+}
+.coming-text {
+  text-align: left;
+}
+.div2024 {
+  text-align: right;
+}
+.div2024 h2 {
+  color: #f00;
+}
+.div2024 img {
+  margin-top: 20px;
+}
+.img-circle {
+  border: 10px solid #f00;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Holidays section style */
+.holiday-upper-text {
+  color: #070211;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.holiday-title {
+  color: #f00;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 65px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+}
+
+/* Holiday content section */
+.holiday-content {
+  position: relative;
+  height: 650px;
+  margin-top: 50px;
+}
+#img1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 429px;
+  height: 433px;
+  flex-shrink: 0;
+}
+#img2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  width: 1320px;
+  height: 229px;
+  flex-shrink: 0;
+}
+#img3 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0;
+  top: 25%;
+}
+#img4 {
+  position: absolute;
+  width: 206px;
+  height: 206px;
+  flex-shrink: 0;
+  top: 20%;
+  right: 30%;
+}
+
+/* Portfolio Section */
+.portfolio-container {
+  margin-top: 50px;
+}
+.portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  max-width: 850px;
+}
+
+.portfolio-text,
+.coming-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.portfolio-content {
+  box-sizing: border-box;
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+.portfolio-content img {
+  width: 30%;
+}
+/* newsletter section styles */
+.newsletter-container {
+  background-color: rgba(255, 0, 0, 0.05);
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+.newsletter-container p {
+  color: rgba(7, 2, 17, 0.6);
+  max-width: 850px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+.newsletter-container img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.newsletter-input {
+  margin: 0 auto;
+}
+.subs-nl {
+  font-weight: 900;
+}
+/* email subscription styles*/
+.newsletter-input {
+  position: relative;
+}
+.newsletter-input input {
+  width: 620px;
+  height: 35px;
+  border: none;
+  padding: 25px;
+  border-radius: 50px;
+}
+.newsletter-input .btn {
+  border-radius: 0px 50px 50px 0px;
+  position: absolute;
+  top: 0;
+  right: -3%;
+  bottom: 0;
+}
+
+/* footer section styles */
+.footer-container {
+  margin-top: 120px;
+  padding: 120px 0 120px 0;
+  background-color: #070211;
+}
+.footer-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.address {
+  width: 80%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.number,
+.web {
+  display: flex;
+  gap: 16px;
+}
+.icon-div {
+  margin-top: 90px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 90px;
+}
+.icon-div img {
+  width: 64px;
+  height: 64px;
+}
+
+.last-div {
+  width: 80%;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container {
+  position: relative;
+}
+#hr1 {
+  width: 1000px;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+#hr2 {
+  width: 1000px;
+  margin: 0 auto;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
